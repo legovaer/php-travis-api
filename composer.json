@@ -1,0 +1,21 @@
+{
+    "name": "legovaer/php-travis-api",
+    "description": "A framework to interact with TravisCI",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "*",
+        "doctrine/common": "~2.2",
+        "symfony/yaml": "3.1.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Levi Govaerts",
+            "email": "legovaer@me.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+      "psr-4": { "Legovaer\\TravisCI\\": "src/" }
+    }
+}
